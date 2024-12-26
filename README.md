@@ -16,12 +16,12 @@
 
 * Mentor : Neela Santhosh kumar
 
-# Overview
+# Overview Of Task:
 
 * This project focuses on testing a web application to find and fix common security problems, such as SQL injection, cross-site scripting (XSS), and weak login systems. The aim is to act like a hacker to discover vulnerabilities that could be exploited to harm the app. By testing these weaknesses, we can understand how secure the application is and provide recommendations to fix any issues found. The goal is to make the web app safer and more reliable by identifying and addressing potential security risks.
 
 
-# objective
+# Objectives:
 
 - Identify Security Vulnerabilities
 - Simulate Real-World Attacks
@@ -31,7 +31,7 @@
 - Recommend Mitigations
 - Enhance Security Awareness
 
-# Tools used in web application Testing
+# Web Application Security Testing Tools
 
 
 - burpsuite
@@ -51,7 +51,7 @@
 - insecure authentication mechanism
   
 # Performed Task
-# Details of site where we performed the web application Testing
+# Details of the Web Application Tested for Vulnerabilities
 
 - Site Name : http://testphp.vulnweb.com
 - Web server : HTTPServer[nginx/1.19.0]
