@@ -18,39 +18,43 @@
 
 # Overview
 
-* Web Application Penetration Testing involves identifying and exploiting security vulnerabilities in web applications to ensure they are secure against potential attacks. This process focuses on vulnerabilities like SQL injection, cross-site scripting (XSS), and insecure authentication mechanisms.
+* This project focuses on testing a web application to find and fix common security problems, such as SQL injection, cross-site scripting (XSS), and weak login systems. The aim is to act like a hacker to discover vulnerabilities that could be exploited to harm the app. By testing these weaknesses, we can understand how secure the application is and provide recommendations to fix any issues found. The goal is to make the web app safer and more reliable by identifying and addressing potential security risks.
+
 
 # objective
 
-1. Identify vulnerabilities
-2. Exploit weaknesses to understand potential attacks
-3. Recommend remediation to enhance security
+- Identify Security Vulnerabilities
+- Simulate Real-World Attacks
+- Assess Authentication Mechanisms
+- Evaluate Data Protection
+- Report Findings
+- Recommend Mitigations
+- Enhance Security Awareness
 
 # Tools used in web application Testing
 
-- sqlmap
-- burpsuite
-- nmap
-- nikto
-- dirb
-- owasp zap
-- Metasploit Framework
-- nessus etc.
 
-# focus vulnerabilities
+- burpsuite
+- sqlmap
+- wireshark
+- owasp zap
+- Acunetix
+- Nmap
+- Metasploit Framework
+- nessus
+  etc.
+
+# Vulnerabilities in this task
 
 - cross site scripting (XSS)
 - SQL injection
-- insecure authentication
-- open redirect etc.
-
+- insecure authentication mechanism
+  
 # Performed Task
 # Details of site where we performed the web application Testing
 
 - Site Name : http://testphp.vulnweb.com
-- IP address : 44.228.249.3
 - Web server : HTTPServer[nginx/1.19.0]
-- technology used : 1. PHP[5.6.40-38+ubuntu20.04.1+deb.sury.org+1] , 2. Script[text/JavaScript]
 - Port : 80 [http] open
 
 # Performed Testing on testphp.vulnweb.com
